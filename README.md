@@ -1,16 +1,14 @@
-----------------
+
 Group Members:
 
-|------------- | -------------- |
+
 | Name        | Student Number |
-|------------------------------|
+|-----------: | -------------: |
 | Jamaine Chika | 221040749    |
 | Wesley Tashiya | 221140379 |
 | Erastus Bathromeus | 221136304 |
 | Enzo Jantjies | 216097975 |
-----------------------------
 
------------------
 
 # Artificial Intelligence (AIR711s) Assignment 1
 
