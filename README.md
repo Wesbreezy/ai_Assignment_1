@@ -7,6 +7,7 @@ Group Members:
 | Jamaine Chika | 221040749    |
 | Wesley Tashiya | 221140379 |
 | Erastus Bathromeus | 221136304 |
+| Timotheus Rafael | 222059710 |
 | Enzo Jantjies | 216097975 |
 
 
