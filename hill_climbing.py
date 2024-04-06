@@ -1,13 +1,11 @@
 import random
 
 def generate_random_route(n):
-#Here we ar generating a random initial route to visit all places(n) and return a list for a random route.
     route = list(range(n))
     random.shuffle(route)
     return route 
 
 def calculate_total_distance(adjacency_matrix, route):  
-#And here we do the calculations for total distance of a route based on the adjacency of matrix and return the total distance of the route.
     total_distance = 0
     for i in range(len(route) - 1):
         current_place = route[i]
@@ -15,8 +13,7 @@ def calculate_total_distance(adjacency_matrix, route):
         total_distance += adjacency_matrix[current_place][next_place]
     return total_distance
 
-def explore_neighbors(route):
-    #To explore neighboring solutions we swap the order of two random chosen places and return a list of neighboring routes. 
+def explore_neighbors(route): 
     neighbors = []
     n = len(route)
 
@@ -29,7 +26,6 @@ def explore_neighbors(route):
     return neighbors
 
 def hill_climbing(adjacency_matrix):
-    #This is the main function that implements the Hill Cl
     n = len(adjacency_matrix)
     current_route = generate_random_route(n)
     current_distance = calculate_total_distance(adjacency_matrix, current_route)
@@ -56,8 +52,6 @@ def hill_climbing(adjacency_matrix):
     return current_route, current_distance, explored_routes
 
 
-
-#usage
 adjacency_matrix = [
     [0, 7, 20, 15, 12],
     [7, 0, 6, 14, 18],
