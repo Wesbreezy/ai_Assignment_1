@@ -1,9 +1,23 @@
+----------------
+Group Members:
+
+|------------- | -------------- |
+| Name        | Student Number |
+|------------------------------|
+| Jamaine Chika | 221040749    |
+| Wesley Tashiya | 221140379 |
+| Erastus Bathromeus | 221136304 |
+| Enzo Jantjies | 216097975 |
+----------------------------
+
+-----------------
+
 # Artificial Intelligence (AIR711s) Assignment 1
 
 ## Question 1(60%)
 Imagine you are tasked with developing the navigation system for a home cleaning robot. The robot operates in a rectangular home environment with furniture and other obstacles scattered around. The robot needs to clean the entire floor efficiently, navigating around obstacles and reaching all areas.
 
-*Your Assignment:*
+### Your Assignment:
 
 ### 1. Modelling the Environment (20%)
 
@@ -32,7 +46,7 @@ Imagine you are tasked with developing the navigation system for a home cleaning
 
 Tuafeni (You), the travelling salesman, stared at the map of Windhoek sprawled across his desk. Pins marked vibrant places, each a promise of exotic trinkets and potential customers. But a frown creased his brow. How could he visit all these places in the most efficient way possible? Fuel wasn't cheap, and time was money. He/She needs to visit a set of places in Windhoek exactly once and return to the starting point, minimising the total travel distance. Hill climbing is a search algorithm that can be used to find an acceptable solution for the Travelling Salesman Problem (TSP), even though it might not be the absolute shortest route.
 
-*Assignment Objective:*
+### Assignment Objective:
 
 This assignment explores the application of the hill climbing algorithm to solve the TSP. You will implement the algorithm, analyse its performance, and compare it to an optimal solution.
 
